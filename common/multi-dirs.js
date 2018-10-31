@@ -3,12 +3,21 @@ const path = require('path')
 const fs = require('fs')
 function mkdirs(folder,callback){
     fs.access(folder,fs.constants.F_OK, (err) => {
-        if (err) {
-           if (path.dirname(folder) != folder ){
-                
-           }
-        }
+        // err 为文件夹不存在
+       if (err) {
+           mkdirs(path.dirname(folder),() => {
+               fs.mkdir(folder,callback)
+           })
+       }else{
+           callback()
+       }
     })
 }
 
-mkdirs('./aa/bb/cc')
+mkdirs(path.join(process.cwd(),'./aa/bb/cc'),(err) => {
+    if (err) {
+        console.error(err)
+    }else{
+        console.log('文件夹创建完成')        
+    }
+})
