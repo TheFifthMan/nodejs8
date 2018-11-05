@@ -14,6 +14,4 @@ function mkdirs(folder,callback){
     })
 }
 
-mkdirs(path.join(process.cwd(),'./aa/bb/cc'),() => {
-       
-})
+mkdirs(path.join(process.cwd(),'./aa/bb/cc'),() => {})
