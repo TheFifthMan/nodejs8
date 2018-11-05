@@ -14,10 +14,6 @@ function mkdirs(folder,callback){
     })
 }
 
-mkdirs(path.join(process.cwd(),'./aa/bb/cc'),(err) => {
-    if (err) {
-        console.error(err)
-    }else{
-        console.log('文件夹创建完成')        
-    }
+mkdirs(path.join(process.cwd(),'./aa/bb/cc'),() => {
+       
 })

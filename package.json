@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/TheFifthMan/nodejs8#readme",
   "devDependencies": {
+    "request": "^2.88.0",
     "supertest": "^3.3.0"
   },
   "dependencies": {
