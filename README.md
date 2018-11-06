@@ -49,6 +49,11 @@ node表示系统路径的模块为path，这一点有点类似python，python也
 
 # DNS模块
 
+# ES6语法
+## Promise
+## async/await
+
+
 # 第三方模块
 ## supertest
 ## superagent
