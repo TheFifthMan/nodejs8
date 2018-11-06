@@ -12,23 +12,33 @@
 2. [删除文件夹](file/delete-dir.md)
 3. [确定文件夹是否存在](file/access-dir.md)
 
-
 ## 操作文件
 1. [复制移动](file/copy-file.md)
-2. [删除文件](file/delete-file,md)
+2. [删除文件](file/delete-file.md)
 3. [确定文件是否存在](file/access-dir.md)
 4. [文件属性](file/state-file.md)
+5. [重命名](file/rename.md)
 
 # 路径
 node表示系统路径的模块为path，这一点有点类似python，python也分出了一个os.path模块来管理系统的路径。
+1. [路径拼接](path/join.md)
+
 
 # 网络
 这里主要总结一下agent部分，不涉及server部分。
 
 # OS模块
+## os的基础信息
+
 
 # Process模块
 
 # Stream模块
 
 # DNS模块
+
+# 第三方模块
+## supertest
+## superagent
+## request
+## express
