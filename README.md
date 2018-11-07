@@ -29,16 +29,20 @@ node表示系统路径的模块为path，这一点有点类似python，python也
 6. [路径拼接](path/join.md)
 7. [格式化为系统合适的路径](path/normalize.md)
 8. [parse](path/parse.md)
+
 更多文档可见： [DOC](https://nodejs.org/dist/latest-v8.x/docs/api/path.html)
 
 # 网络
-这里主要总结一下agent部分，不涉及server部分。
-1. [发送get请求]()
-2. [发送post请求]()
-3. [如何携带session]()
-4. [如何上传文件]()
+这里主要总结一下agent部分，不涉及server部分。基于目前的情况看，主要学习https模块。
+1. [发送get请求](https/get.md)
+2. [发送post请求](https/post.md)
+3. [如何携带session](https/session.md)
+4. [如何上传文件](https/upload.md)
+5. [使用nodejs学习爬虫](https/spider.md)
 
-更多文档可见: [DOC](https://nodejs.org/dist/latest-v8.x/docs/api/http.html)
+更多文档可见: [DOC](https://nodejs.org/dist/latest-v8.x/docs/api/http.html) / [简书](https://www.jianshu.com/p/ab2741f78858)
+
+# Timer 
 
 # OS模块
 ## os的基础信息
@@ -51,6 +55,8 @@ node表示系统路径的模块为path，这一点有点类似python，python也
 
 # ES6语法
 ## Promise
+Promise 意思是承诺，也就是说一个Promise对象保存着未来会执行返回结果的函数。
+[Promise](Promise/read.md)
 ## async/await
 
 
